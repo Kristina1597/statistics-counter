@@ -1,0 +1,10 @@
+.mainPage_background {
+    display: flex;
+    justify-content: center;
+}
+
+.mainPage_container {
+    position: fixed;
+    height: 100%;
+    background-color: #ffffff;
+}

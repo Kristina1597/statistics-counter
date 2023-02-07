@@ -1,0 +1,12 @@
+.custom_input {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+
+.custom_input_icon {
+    margin-right: 10px;
+}

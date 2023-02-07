@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 12px;
+
+  position: fixed;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p,
+table, tbody, thead, tr, th, td,
+input, button, ul {
+  margin: 0;
+  padding: 0;
+}

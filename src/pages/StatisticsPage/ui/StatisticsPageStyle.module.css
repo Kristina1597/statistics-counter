@@ -1,0 +1,24 @@
+.statisticsPage_container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 80%;
+    max-width: 512px;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.statisticsPage_price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statisticsPage_price_total {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
