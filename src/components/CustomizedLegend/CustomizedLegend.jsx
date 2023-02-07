@@ -26,7 +26,8 @@ export const RenderCustomizedLegend = ({ firstPeriod, secondPeriod }) => {
                 display: {
                     xs: 'none',
                     sm: 'flex'
-                }
+                },
+                whiteSpace: 'nowrap'
             }}>
                 {formatDateForDisplaying(firstDay)}
             </Typography>
@@ -57,7 +58,7 @@ export const RenderCustomizedLegend = ({ firstPeriod, secondPeriod }) => {
                                 backgroundColor: colors[index],
                                 borderRadius: '50%'
                             }}/>
-                            {formatPeriodForDisplaying(entry)}
+                            {formatPeriodForDisplaying(entry).length > 20 ? index + 1 + ' период' : formatPeriodForDisplaying(entry)}
                         </Box>
                     ))
                 }
@@ -66,7 +67,8 @@ export const RenderCustomizedLegend = ({ firstPeriod, secondPeriod }) => {
                 display: {
                     xs: 'none',
                     sm: 'flex'
-                }
+                },
+                whiteSpace: 'nowrap'
             }}>
                 {formatDateForDisplaying(secondDay)}
             </Typography>
